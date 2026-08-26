@@ -17,10 +17,11 @@ A pusher client plugin that works.
   s.license          = { :file => '../LICENSE', :type => 'MIT' }
   s.author           = { 'Romario Chinloy' => 'jordain7@protonmail.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'pusher_client/Sources/pusher_client/**/*.{h,m,swift}'
+  s.public_header_files = 'pusher_client/Sources/pusher_client/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'PusherSwiftWithEncryption', '~> 8.0.0'
-  s.platform = :ios, '9.0'
+  s.dependency 'PusherSwift', '~> 10.1.0'
+  s.platform = :ios, '13.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Flutter
 
 protocol MChannel {
     func register(messenger: FlutterBinaryMessenger) -> Void

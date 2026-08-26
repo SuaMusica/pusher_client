@@ -5,6 +5,8 @@
 //  Created by Romario Chinloy on 10/29/20.
 //
 
+import Flutter
+
 class StreamHandler: NSObject, FlutterStreamHandler {
     static let `default`: StreamHandler = StreamHandler()
     

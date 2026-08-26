@@ -6,7 +6,8 @@
 //
 
 import Foundation
-import PusherSwiftWithEncryption
+import Flutter
+import PusherSwift
 
 class ChannelEventListener {
     static let `default`: ChannelEventListener = ChannelEventListener()

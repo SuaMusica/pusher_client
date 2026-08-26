@@ -1,3 +1,8 @@
+## 2.0.2
+
+- Adds Swift Package Manager support (CocoaPods kept).
+- Updates the iOS Pusher Swift client to 10.1.
+
 ## 2.0.1
 
 - Updates the minimum supported SDK version to Flutter 3.44/Dart 3.12.
